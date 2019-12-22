@@ -16,7 +16,7 @@ class CacheHandle {
     return this.caches[api];
   }
   clearCache() {
-    console.log(`-------清空缓存:缓存时间${new Date().toLocaleString()}-----`);
+    console.log(`---------清空缓存时间${new Date().toLocaleString()}-------`);
     this.caches = {};
   }
 };
